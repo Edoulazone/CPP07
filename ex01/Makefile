@@ -6,7 +6,7 @@
 #    By: eschmitz <eschmitz@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/07 17:01:12 by eschmitz          #+#    #+#              #
-#    Updated: 2025/05/14 11:01:17 by eschmitz         ###   ########.fr        #
+#    Updated: 2025/05/14 11:01:07 by eschmitz         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ SRC = main.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
-NAME = whatever
+NAME = iter
 
 all: $(NAME)
 
