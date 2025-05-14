@@ -6,7 +6,7 @@
 #    By: eschmitz <eschmitz@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/07 17:01:12 by eschmitz          #+#    #+#              #
-#    Updated: 2025/05/14 11:01:01 by eschmitz         ###   ########.fr        #
+#    Updated: 2025/05/14 14:38:08 by eschmitz         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,11 +14,11 @@ C++ = c++
 
 FLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRC = main.cpp Array.tpp
+SRC = main.cpp
 
 OBJ = $(SRC:.cpp=.o)
 
-NAME = Array
+NAME = array
 
 all: $(NAME)
 
